@@ -1,20 +1,21 @@
-<html>
+<!-- <!DOCTYPE html>
 <head>
   <meta charset='UTF-8'/>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
   <meta http-equiv='X-UA-Compatible' content='ie=edge'/>
   <title>Document</title>
-  <script src='js/index.js'></script>
+  <script src='index.js'></script>
   <link rel='stylesheet' href='index.css'/>
 </head>
 <body>
   <div id='main'>
 
-    <h2>GitHub Search</h2>
+    <h2> Search your GitHub account</h2>
 
     <form id='github-form'>
       <input id='search' type='text' name='search'>
       <input type='submit' name='submit'/>
+       
     </form>
 
     <div id='github-container'>
@@ -29,5 +30,22 @@
 
   </div>
 
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Search App</title>
+</head>
+<body>
+    <h1>GitHub Search</h1>
+    <input type="text" id="searchInput" placeholder="Enter your github account">
+    <button onclick="searchGitHub()">Search</button>
+    <div id="results"></div>
+
+    <script src="./index.js"></script>
 </body>
 </html>
